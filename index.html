@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <title> Trần Vĩ Văn </title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: rgba(11, 240, 248, 0.76);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .left,
+    .right {
+      padding: 20px;
+    }
+
+    .left {
+      width: 40%;
+      background-color: #56dcf3;
+      border-right: 1px solid #ddd;
+      text-align: center;
+    }
+
+    .right {
+      width: 60%;
+    }
+
+    .profile img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .profile h1 {
+        font-family: 'Dancing Script', cursive;
+      font-size: 4em;
+      color: #c03e3e;
+      margin: 0;
+    }
+
+    .profile p {
+      color: #000000;
+      margin: 5px 0;    
+    }
+
+    .timeline h2 {
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+      color: #f10707;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 50px;
+    }
+
+    .event {
+      border-left: 3px solid #000000;
+      padding-left: 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .event::before {
+      content: "";
+      position: absolute;
+      left: -7px;
+      top: 10px;
+      width: 14px;
+      height: 14px;
+      background-color: #333;
+      border-radius: 50%;
+    }
+
+    .event h3 {
+      font-size: 1.5em;
+      color: #274991;
+      margin: 0;
+    }
+
+    .event p {
+      color: #0c004e;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Bên trái: Thông tin cá nhân -->
+    <div class="left">
+      <div class="profile">
+        <img src="https://scontent.fvca1-2.fna.fbcdn.net/v/t39.30808-6/469155216_564293056205367_2227181520956115544_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeHO4wmU5lgdXLU1FY2T4CoMGIJgHCiuBy4YgmAcKK4HLjQHlNTT2xSclFFHvhI_lZvMNY6FKa9kojw1YU5ebvwn&_nc_ohc=j2DF-orD9ysQ7kNvgGemcE_&_nc_zt=23&_nc_ht=scontent.fvca1-2.fna&_nc_gid=AKFg27L_Wh2x-0J7wvslhYh&oh=00_AYARKn0pRAOLWLpvbmy9SFmadCP5KVKI6Bq9nF9RuA2cLQ&oe=6754A616" alt="Ảnh cá nhân">
+        <h1> Trần Vĩ Văn </h1>
+        <p>Ngày sinh: 26/11/2007</p>
+        <p>Email:vivan2k7@gmail.com</p>
+        <p>Điện thoại: 0379 748 433</p>
+        <p>Địa chỉ: Ấp Tân Bình, xã Long Bình , thị xã Ngã Năm, tỉnh Sóc Trăng</p>
+      </div>
+    </div>
+
+    <!-- Bên phải: Các sự kiện quan trọng -->
+    <div class="right">
+      <div class="timeline">
+        <h2>Mốc Son</h2>
+
+        <div class="event">
+          <h3> Lớp 10 (Năm học 2022-2023)</h3>
+          <ul>
+            <li>Đậu tuyển sinh 10 vào trường THPT Mai Thanh Thế với 38,15 điểm.</li>
+            <li>Đậu nguyện vọng 1 vào tổ hợp 1 lớp 10A2.</li>
+            <li>Là thành viên của tổ 2 vào kì 1 và tổ tổ 3 vào kì 2 ,bắt đầu có bạn học mới, được mọi người thân thiện giúp đỡ.</li>
+          </ul>
+         
+        </div>
+
+        <div class="event">
+          <h3> <font color="red">lớp 11 (Năm học 2023-2024) </font></h3> 
+          <ul>
+            <li>Tiếp tục là thành viên của tổ 3 lớp 11A2.</li>
+            <li>Đạt học lực giỏi vào kì 1 </li>
+            <li>Đạt học lực xuất sắc vào kì 2</li>
+            <li>Đạt danh hiệu <strong> học sinh xuất sắc </strong> cả học kì </li>
+          </ul>
+        </div>
+
+        <div class="event">
+          <h3><font color="#FF00FF">Lớp 12 (Năm học 2024-2025)</font></h3>
+          <ul>
+            <li>Xác định được ngành học và ngôi trường đại học mơ ước.</li>
+            <li>Mục tiêu đỗ nguyện vọng 1 trong kì Tốt nghiệp THPT Quốc gia 2025</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
